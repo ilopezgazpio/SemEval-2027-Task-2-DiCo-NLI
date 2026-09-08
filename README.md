@@ -14,7 +14,7 @@ It aims to evaluate whether NLI systems make **consistent direction-sensitive de
 TODO: add official task citation once available.
 ```
 
-- **Competition website:** TODO: CodaBench link.
+- **Competition website:** [CodaBench development phase](https://www.codabench.org/competitions/18038/).
 - **Questions or issues:** open a [GitHub issue](../../issues) or email `inigo.lopez@ehu.eus`.
 - **Trial data:** [`trial_data/`](trial_data/).
 - **Training/development data:** [`final_data/`](final_data/).
@@ -29,6 +29,7 @@ TODO: add official task citation once available.
 - **2026-07-28:** Starter kit code ready and smoke-tested on the trial data format.
 - **2026-09-08:** Training and development data ready.
 - **2026-09-08:** Task accepted for SemEval 2027.
+- **2026-09-08:** CodaBench development phase opened for experimental submissions and format testing.
 
 # Task Description
 
@@ -273,7 +274,7 @@ These dates follow the SemEval-2027 preliminary timetable.
 
 # How to Participate
 
-1. Register on the CodaBench competition page once it is available.
+1. Register on the [CodaBench development phase](https://www.codabench.org/competitions/18038/) to test the submission format before the official evaluation phase.
 2. Choose one or more tracks: English, Spanish, Basque, or Mixed multilingual.
 3. Download the trial/final data from this repository once released.
 4. Build a system that outputs one label per ordered phrase pair.
@@ -317,7 +318,7 @@ To be included in the official ranking, teams must submit a system description p
 <details>
   <summary>2. Submission limits</summary>
 
-Submission limits for development and evaluation phases will be configured on CodaBench and announced before the competition opens.
+Submission limits for the current development phase and the future official evaluation phase will be configured on CodaBench and announced before each phase.
 </details>
 
 <details>
