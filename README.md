@@ -88,6 +88,13 @@ development files for each track. The zipped files are convenience packages with
 the same contents as the corresponding folders. Participants may use either the
 folders directly or unpack the zip files.
 
+When browsing the task website, use the GitHub repository view to access the
+released files directly: [final_data on GitHub](https://github.com/ilopezgazpio/SemEval-2027-Task-X-DiCo-NLI/tree/main/final_data).
+Convenience downloads are also available as
+[train zip](https://github.com/ilopezgazpio/SemEval-2027-Task-X-DiCo-NLI/raw/main/final_data/final_data_train.zip)
+and
+[dev zip](https://github.com/ilopezgazpio/SemEval-2027-Task-X-DiCo-NLI/raw/main/final_data/final_data_dev.zip).
+
 Each public train/dev split contains three files per track:
 
 ```text
