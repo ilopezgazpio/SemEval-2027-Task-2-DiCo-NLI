@@ -1,5 +1,5 @@
-<p align="center" style="overflow: hidden; max-height: 420px;">
-  <img align="center" src="static/figures/logo.png" style="width: 100%;" />
+<p align="center">
+  <img align="center" src="static/figures/logo.png" style="width: 100%; height: auto;" />
 </p>
 
 # SemEval 2027 Task 2: Directional-Consistent Fine-Grained Natural Language Inference (DiCo-NLI)
