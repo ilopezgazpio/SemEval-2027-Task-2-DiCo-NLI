@@ -21,14 +21,14 @@ TODO: add official task citation once available.
 - **Evaluation scripts:** [`evaluation_functions/`](evaluation_functions/).
 - **Starter kit:** [`starter_kit/`](starter_kit/).
 - **Data release:** training/development data are available in this repository; the final Zenodo archive will be added after the official evaluation phase.
-- **Task status:** conditionally accepted for SemEval 2027.
+- **Task status:** accepted for SemEval 2027.
 
 # News
 
 - **2026-07-15:** Sample data ready.
 - **2026-07-28:** Starter kit code ready and smoke-tested on the trial data format.
 - **2026-09-08:** Training and development data ready.
-- **2026-09-08:** Final task acceptance notification expected.
+- **2026-09-08:** Task accepted for SemEval 2027.
 
 # Task Description
 
