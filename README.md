@@ -30,7 +30,6 @@ TODO: add official task citation once available.
 - **2026-09-08:** Training and development data ready.
 - **2026-09-08:** Task accepted for SemEval 2027.
 - **2026-09-08:** CodaBench development phase opened for experimental submissions and format testing.
-
 # Task Description
 
 Standard NLI benchmarks usually evaluate whether a model predicts the correct label for a single ordered pair. DiCo-NLI adds a paired requirement: if a model predicts a relation for `(premise, hypothesis)`, its prediction for `(hypothesis, premise)` should be compatible with the logical reversal of that relation.
@@ -381,6 +380,8 @@ Yes. Open-weight, API-based, fine-tuned, prompted, and hybrid systems are allowe
   <summary>Can I train on PhrasIS?</summary>
 
 The final data-use policy will be documented before the training phase. The official release will distinguish task training data from auxiliary resources and will require participants to report any use of PhrasIS or related public datasets. The official evaluation split will be grouped by source phrase pair so that training data does not contain another direction, language, or variant of a final-test pair.
+
+Since the acceptance of the task, the data in the related GitHub repositories has been made temporarily unavailable in order to minimize the effect of contamination.
 </details>
 
 <details>
