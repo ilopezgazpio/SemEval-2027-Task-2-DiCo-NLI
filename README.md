@@ -379,9 +379,11 @@ Yes. Open-weight, API-based, fine-tuned, prompted, and hybrid systems are allowe
 <details>
   <summary>Can I train on PhrasIS?</summary>
 
-The final data-use policy will be documented before the training phase. The official release will distinguish task training data from auxiliary resources and will require participants to report any use of PhrasIS or related public datasets. The official evaluation split will be grouped by source phrase pair so that training data does not contain another direction, language, or variant of a final-test pair.
+No. DiCo-NLI is derived from PhrasIS, so the original PhrasIS data contains the source phrase pairs behind the official evaluation split together with their labels. Training on it would contaminate the evaluation: a system could score well by having seen the test pairs rather than by generalizing to held-out ones.
 
-Since the acceptance of the task, the data in the related GitHub repositories has been made temporarily unavailable in order to minimize the effect of contamination.
+To minimize this risk, access to the PhrasIS data in the related GitHub repositories has been temporarily removed since the acceptance of the task. Please use the training and development data released in [`final_data/`](final_data/) instead. These splits are grouped by source phrase pair, so they contain no direction, language, or variant of an evaluation pair.
+
+Teams that already hold a copy of PhrasIS or of related public datasets must not use it for system development, and must report any exposure to such data in their system description paper.
 </details>
 
 <details>
